@@ -1,0 +1,46 @@
+.menu a {
+    height: 160px;
+    display: block;
+    float: left;
+    width: 157px;
+    padding: 10px;
+    margin: 2.5%;
+    border-radius: 15px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+    
+.menu-item-1 { 
+	background: #3C3C3C; 
+	background-size: 110px;
+    background-image: url(img/dumbell.png);
+    background-repeat: no-repeat;
+    background-position: 37px 74px;
+}
+
+.menu-item-2 { 
+	background: #7EBF4B;
+	background-size: 110px;
+    background-image: url(img/dumbell.png);
+    background-repeat: no-repeat;
+    background-position: 37px 74px;
+}
+
+.menu-item-3 { 
+	background: #FD7C07;
+	background-size: 110px;
+    background-image: url(img/dumbell.png);
+    background-repeat: no-repeat;
+    background-position: 37px 74px;
+}
+
+.menu-item-4 { 
+	background: #405D99;
+	background-size: 110px;
+    background-image: url(img/dumbell.png);
+    background-repeat: no-repeat;
+    background-position: 37px 74px;
+}

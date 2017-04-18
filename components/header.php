@@ -14,6 +14,18 @@
 	<!-- Login -->
 	<link rel="stylesheet" href="components/login/login.css">
 
+	<!-- Nav -->
+	<link rel="stylesheet" href="components/nav/nav.css">
+
+	<!-- footer -->
+	<link rel="stylesheet" href="components/footer/footer.css">
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+
+	<!-- Google font --> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 
 	<!--[if lt IE 9]>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
