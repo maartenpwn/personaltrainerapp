@@ -20,6 +20,9 @@
 	<!-- footer -->
 	<link rel="stylesheet" href="components/footer/footer.css">
 
+	<!-- Top-menu -->
+	<link rel="stylesheet" href="components/top-menu/top-menu.css">
+
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
 

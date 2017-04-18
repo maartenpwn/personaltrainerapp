@@ -23,6 +23,42 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
 
-.return {
-    font-size: 24px !important;
+/* Form */
+.workout-form {
+
+}
+
+.set {
+    width: 100%;
+    float: left;
+}
+
+.workout-form label {
+    margin-right: 10px;
+    float: left;
+    color: #FFF;
+}
+
+.workout-form input {
+    float: right;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 86px;
+    border: none;
+    height: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.workout-button {
+    border-radius: 5px;
+    float: right;
+    width: 50%;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 9px;
+    border: 2px solid #FFF;
+    background-color: #0090e3;
+    cursor: pointer;
 }
