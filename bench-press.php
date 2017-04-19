@@ -10,7 +10,7 @@
 
 	<h1>1. Bench press</h1>
 	
-	<form action="./overview.php" method="POST" class="form-inline workout-form">	  
+	<form action="./shoulder-press.php" method="POST" class="form-inline workout-form">	  
 		
 		<div class="set">
 			<label>First set</label>
