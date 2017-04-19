@@ -5,10 +5,10 @@
 	<a href="squat.php" class="menu-item menu-item-2" style="background-image: url(img/dumbell.png)">
 		<span>Lower body workout</span>
 	</a>
-	<a href="#" class="menu-item menu-item-3" style="background-image: url(img/dumbell.png)">
+	<a href="results.php" class="menu-item menu-item-3" style="background-image: url(img/diagram.png)">
 		<span>Results</span>
 	</a>
-	<a href="#" class="menu-item menu-item-4" style="background-image: url(img/dumbell.png)">
+	<a href="compare.php" class="menu-item menu-item-4" style="background-image: url(img/dumbell.png)">
 		<span>Compare</span>
 	</a>
 </div>

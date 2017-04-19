@@ -29,6 +29,9 @@
 	<!-- Google font --> 
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+	<!-- Audio music -->
+	<audio preload="auto" src="./audio/music.mp3" loop="true" autobuffer></audio>
+
 	<!-- JS -->
 	<script src="./js/jquery-3.2.1.min.js"></script>
 	<script src="./js/main.js"></script>
