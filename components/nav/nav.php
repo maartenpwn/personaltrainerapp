@@ -8,7 +8,7 @@
 	<a href="results.php" class="menu-item menu-item-3" style="background-image: url(img/diagram.png)">
 		<span>Results</span>
 	</a>
-	<a href="compare.php" class="menu-item menu-item-4" style="background-image: url(img/dumbell.png)">
+	<a href="compare.php" class="menu-item menu-item-4" style="background-image: url(img/cup.png)">
 		<span>Compare</span>
 	</a>
 </div>

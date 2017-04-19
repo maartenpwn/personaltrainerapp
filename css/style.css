@@ -37,10 +37,11 @@ h1,h2,h3,h4,h5,h6 {
     margin-right: 10px;
     float: left;
     color: #FFF;
+    width: 112px;
 }
 
 .workout-form input {
-    float: right;
+    float: left;
     padding: 0 20px;
     border-radius: 5px;
     width: 86px;
@@ -52,13 +53,94 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .workout-button {
+    border: none;
+    font-size: 23px;
     border-radius: 5px;
     float: right;
-    width: 50%;
-    height: 70px;
+    width: 36%;
+    height: 50px;
     margin-top: 10px;
     margin-right: 9px;
-    border: 2px solid #FFF;
-    background-color: #0090e3;
+    background-color: #3C3C3C;
     cursor: pointer;
+    color: #FFF;
+}
+
+/* Accordion */
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #3C3C3C;
+    color: #FFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #3C3C3C;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    float: left;
+    padding: 10px 18px;
+    background-color: white;
+    display: none;
+}
+
+/* Panels */
+.panel-left {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.panel-right {
+    float: left;
+    width: 50%;
+}
+
+span.panel-info {
+    float: left;
+    width: 89px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.panel-item:first-child {
+    float: left;
+    border-bottom: 1px solid #3C3C3C;
+    margin-bottom: 10px;
+}
+
+/* Compare */
+.slick-prev, .slick-next {
+    top: 14% !important;
+}
+
+.your-class {
+    width: 88%;
+    margin: 0 auto;
+}
+.score {
+    border-bottom: 2px solid #FFF;
+    width: 100%;
+    float: left;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.score-left {
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    margin-right: 25px;
 }

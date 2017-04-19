@@ -9,9 +9,32 @@ var workout2 = new Audio('./audio/workout2.aac');
 var workout3 = new Audio('./audio/workout3.aac');
 var workout4 = new Audio('./audio/workout4.aac');
 
+$(document).ready(function(){
+    $('.your-class').slick({});
+});
+
 $(function () {
 
-	
+    // Accordion
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        }
+    }
 
 	// Login page
 	if(location.pathname=="/personaltrainerapp/index.php") login.play();
@@ -29,7 +52,7 @@ $(function () {
 	
 
 	// login.onended = function() {
- //    	// music.play();
+    //    	// music.play();
 	// };
 
 	// var vid = document.getElementById("myVideo");
@@ -106,7 +129,7 @@ function update()
         if(tillPlayed){
         song.currentTime = tillPlayed;
         song.play();
-        song.volume = 0;
+        song.volume = 0.2;
         played = true;
         }
         else {

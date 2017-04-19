@@ -36,9 +36,9 @@
 	<script src="./js/jquery-3.2.1.min.js"></script>
 	<script src="./js/main.js"></script>
 
-	<!--[if lt IE 9]>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="./slick/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./slick/slick/slick-theme.css"/>
+
 </head>
 
 <body>
