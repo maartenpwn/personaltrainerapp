@@ -2,7 +2,7 @@
 	include 'components/header.php';	
 ?>
 
-<div class="app" style="background-image: url(img/login-bg.jpg)">
+<div class="app" style="background-image: url(img/trainer-full.png)">
 	<?php
 		include 'components/login/login.php';
 	?>

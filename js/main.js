@@ -129,7 +129,7 @@ function update()
         if(tillPlayed){
         song.currentTime = tillPlayed;
         song.play();
-        song.volume = 0.2;
+        song.volume = 0;
         played = true;
         }
         else {
