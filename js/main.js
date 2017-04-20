@@ -71,21 +71,21 @@ $(document).keydown(function(e) {
 
         case 50: // 2
         	console.log("Toets 2 gedrukt");
-        	heartbeat = 60;
+        	heartbeat = 70;
         	$(".heart-rate span").html(heartbeat);
         	workout2.play();
         break;
 
         case 51: // 3
         	console.log("Toets 3 gedrukt");
-        	heartbeat = 70;
+        	heartbeat = 90;
         	$(".heart-rate span").html(heartbeat);
         	workout3.play();
         break;
 
         case 52: // 4
         	console.log("Toets 4 gedrukt");
-        	heartbeat = 80;
+        	heartbeat = 100;
         	$(".heart-rate span").html(heartbeat);
         	workout4.play();
         break;
@@ -94,7 +94,6 @@ $(document).keydown(function(e) {
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
 });
-
 
 // Function to let music play troughout the application
 function setCookie(c_name,value,exdays)
