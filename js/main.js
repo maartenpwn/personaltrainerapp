@@ -1,4 +1,5 @@
 var heartbeat = 55;
+var songVolume = 0.2;
 
 var login 	 = new Audio('./audio/login.aac');
 var overview = new Audio('./audio/overview.aac');
@@ -128,7 +129,7 @@ function update()
         if(tillPlayed){
         song.currentTime = tillPlayed;
         song.play();
-        song.volume = 0;
+        song.volume = songVolume;
         played = true;
         }
         else {
